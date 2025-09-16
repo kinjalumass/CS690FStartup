@@ -1,0 +1,31 @@
+# Class taxonomy with include/exclude rules (edit as needed)
+pets:
+  include: ["household cats/dogs, indoor candid photos"]
+  exclude: ["zoo, wildlife reserves, aquariums, recognizable owners' faces"]
+food:
+  include: ["prepared meals, plated dishes, close-ups"]
+  exclude: ["grocery shelves without prepared food"]
+friends:
+  include: [">=2 people socializing, casual settings"]
+  exclude: ["office desk scenes, staged portraits"]
+travel:
+  include: ["airports, train stations, luggage, hotels"]
+  exclude: ["generic parks without travel context"]
+dancing:
+  include: ["visible dance posture, parties/studios"]
+  exclude: ["sports goal celebrations"]
+outdoors:
+  include: ["nature, parks, hiking"]
+  exclude: ["urban streets unless nature-dominant"]
+sports_fitness:
+  include: ["gym, running, team sports"]
+  exclude: ["dancing"]
+work_study:
+  include: ["laptops, desks, classrooms"]
+  exclude: ["cafés where socializing dominates"]
+celebrations:
+  include: ["birthdays, weddings, festivals"]
+  exclude: ["generic dining"]
+landmarks:
+  include: ["recognizable monuments/city icons"]
+  exclude: ["random buildings"]
