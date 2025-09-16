@@ -1,0 +1,8 @@
+classes: [dogs, cats, food, drink, room, book, painting, outside, car, flowers]
+images_dir: data/synthetic/images
+captions_csv: data/synthetic/captions.csv
+splits_dir: data/splits
+seed: 1337
+train_ratio: 0.7
+val_ratio: 0.15
+test_ratio: 0.15
