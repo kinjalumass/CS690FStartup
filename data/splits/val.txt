@@ -1,0 +1,15 @@
+data/synthetic/images/cats/cat3.jpg
+data/synthetic/images/drink/drink3.jpg
+data/synthetic/images/car/car9.jpg
+data/synthetic/images/book/book10.jpg
+data/synthetic/images/dogs/dog2.jpg
+data/synthetic/images/outside/outside8.jpg
+data/synthetic/images/book/book9.jpg
+data/synthetic/images/food/food10.jpg
+data/synthetic/images/room/room8.jpg
+data/synthetic/images/flowers/flowers9.jpg
+data/synthetic/images/food/food9.jpg
+data/synthetic/images/drink/drink8.jpg
+data/synthetic/images/painting/painting6.jpg
+data/synthetic/images/flowers/flowers5.jpg
+data/synthetic/images/dogs/dog8.jpg

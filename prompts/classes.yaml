@@ -1,31 +1,34 @@
-# Class taxonomy with include/exclude rules (edit as needed)
-pets:
-  include: ["household cats/dogs, indoor candid photos"]
-  exclude: ["zoo, wildlife reserves, aquariums, recognizable owners' faces"]
-food:
-  include: ["prepared meals, plated dishes, close-ups"]
-  exclude: ["grocery shelves without prepared food"]
-friends:
-  include: [">=2 people socializing, casual settings"]
-  exclude: ["office desk scenes, staged portraits"]
-travel:
-  include: ["airports, train stations, luggage, hotels"]
-  exclude: ["generic parks without travel context"]
-dancing:
-  include: ["visible dance posture, parties/studios"]
-  exclude: ["sports goal celebrations"]
-outdoors:
-  include: ["nature, parks, hiking"]
-  exclude: ["urban streets unless nature-dominant"]
-sports_fitness:
-  include: ["gym, running, team sports"]
-  exclude: ["dancing"]
-work_study:
-  include: ["laptops, desks, classrooms"]
-  exclude: ["cafés where socializing dominates"]
-celebrations:
-  include: ["birthdays, weddings, festivals"]
-  exclude: ["generic dining"]
-landmarks:
-  include: ["recognizable monuments/city icons"]
-  exclude: ["random buildings"]
+# configs/classes.yaml
+
+# List of classes in your dataset
+classes:
+  - dogs
+  - cats
+  - food
+  - drink
+  - room
+  - book
+  - painting
+  - outside
+  - car
+  - flowers
+
+# Dataset paths (relative to repo root)
+images_dir: data/synthetic/images
+captions_csv: data/synthetic/captions.csv
+
+# Split file directory
+splits_dir: data/splits
+
+# Attack sets (for Membership Inference)
+attack_sets:
+  member: data/attack_sets/member.txt
+  nonmember: data/attack_sets/nonmember.txt
+
+# Random seed for reproducibility
+seed: 1337
+
+# Ratios used to generate splits
+train_ratio: 0.7
+val_ratio: 0.15
+test_ratio: 0.15
