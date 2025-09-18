@@ -1,0 +1,23 @@
+{
+  "mia": {
+    "roc_auc": 0.920774647887324,
+    "attack_accuracy": 0.6436781609195402,
+    "avg_train_loss": 0.7676953165463998,
+    "avg_test_loss": 2.5704070031642914,
+    "threshold_used": -0.7590166926383972,
+    "figures": {
+      "roc_curve": "c:\\Users\\Rishav\\Documents\\GitHub\\CS690FStartup\\outputs\\figures\\mia_roc_curve.png",
+      "loss_histogram": "c:\\Users\\Rishav\\Documents\\GitHub\\CS690FStartup\\outputs\\figures\\loss_histogram.png"
+    }
+  },
+  "extraction": {
+    "exact_memorized_count": 0,
+    "exact_canary_leaks": 0,
+    "total_train_samples": 71,
+    "examples_file": "c:\\Users\\Rishav\\Documents\\GitHub\\CS690FStartup\\outputs\\results\\canary_examples.json",
+    "figures": {
+      "caption_comparison": "c:\\Users\\Rishav\\Documents\\GitHub\\CS690FStartup\\outputs\\figures\\caption_comparison.png",
+      "distorted_attack": "c:\\Users\\Rishav\\Documents\\GitHub\\CS690FStartup\\outputs\\figures\\distorted_attack.png"
+    }
+  }
+}
